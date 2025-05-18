@@ -1,0 +1,75 @@
+# Python virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+build_win/
+win_build/
+*.egg-info/
+*.spec
+AUCHIVE_package.zip
+electron-auchive/
+
+# Temporary and cache files
+temp_uploads/
+data/cache/
+data/cache.json
+*.cache
+.cursor/
+
+# Build artifacts
+*.icns
+*.iconset/
+audio_dashboard/
+
+# Streamlit specific
+.streamlit/secrets.toml
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Sample and user audio files
+samples/*.mp3
+samples/*.wav
+samples/*.m4a
+samples/*.srt
+samples/*.vtt
+
+# User uploaded transcripts
+transcripts/*.txt
+transcripts/*.srt
+transcripts/*.vtt
+transcripts/*.json
+
+# Log files
+*.log
+
+# Local development configuration
+.env
+.env.local
+
+# Build and packaging scripts (remove these if you want to track them)
+build_exe.py
+build_windows.py
+create_icon.py
+mac_build.py
+package_app.py
+simple_windows_package.py
+windows_launcher.py
+windows_package.py 
